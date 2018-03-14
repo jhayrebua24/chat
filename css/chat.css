@@ -1,0 +1,39 @@
+div#scroll{
+  overflow-y:scroll;
+  overflow-x:hidden;
+  height:60vh;
+  width:100%;
+}
+
+input#message{
+  width:100%;
+  background-color: #F3F8FA;
+  border-radius: 5px;
+  flex:1;
+}
+
+div#div_form{
+  display:flex
+}
+
+
+.yourChat{
+  border-radius: 5px;
+  border: 3px solid skyblue;
+  background-color: skyblue;
+  margin-bottom: 5px;
+}
+
+.Others{
+  border-radius:5px;
+  background-color: #CDCDCD;
+  margin-bottom:5px;
+}
+
+#chatline{
+  padding:5;
+  height:auto;
+  max-width:50%;
+  word-break: break-all;
+  word-wrap: break-word;
+}
